@@ -26,10 +26,8 @@ const Projects = () => {
                     {project.slice(0, next).map((item: any, index: Number) =>
                         <div className="w-[350px] h-60 rounded-2 overflow-hidden" key={item.id} >
                             <a href={item.url ? item.url : "#portfolio" } className="relative" target={item.url ? "_blank" : ""}>
-                                <img src={item.img} width="350px" height="250px" className="object-cover rounded-2x1 " />
+                                <img src={embreve} width="350px" height="250px" className="object-cover rounded-xl" />
                                 <div className="hidden relative bottom-16 z-30 hover:block"> 
-                                    <h2> teste </h2> 
-                                    <button> teste a</button>
                                 </div>
                             </a>
                         </div>
