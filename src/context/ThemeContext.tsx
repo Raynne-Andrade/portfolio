@@ -18,7 +18,6 @@ const getInitialTheme = () => {
       return 'dark'
     }
   }
-  // returning default theme here
   return 'light'
 }
 
@@ -29,7 +28,6 @@ export const ThemeProvider = ({ initialTheme , children }: any) => {
 
 
   const rawSetTheme = (theme: string) => {
-//Updated rawSetTheme to theme above//
     const root = window.document.documentElement
     const isDark = theme === 'dark'
 

@@ -11,11 +11,16 @@ const AboutMe = () => {
                 <div className="text-neutral-700 dark:text-white self-center text-lg font-normal
                   max-w-4xl leading-7">
                     <h3 className="text-3xl font-bold text-neutral-800 mb-4 dark:text-white ">
-                        Eu crio sites para pequenas empresas e empreendedores que querem crescer e crescer. 
+                        Frontend e backend para soluções digitais de qualidade. 
                     </h3>
-                    <p> Especialista em HTML, CSS e Javascript, com sólidos conhecimentos em arquitetura do ecosistema Front-End e em tecnologias com  React, VueJs, TypeScript, Web Components, design responsivo, web mobile, entre outros. </p>
-                    <p> Sou entusiasta de tecnologia, gosto de me manter atualizada sobre as tendencias e como elas podem nos auxiliar. Também gosto de livros cliches, gatinhos fofos e café. </p>
-                    <p> Busco futuramente ingressar no mundo do desenvolvimento de jogos em Javascript, Java e Python. </p>
+                    <p> Eu crio sites para pequenas empresas e empreendedores que querem crescer e se destacar online. Sou especialista em Frontend, com domínio de 
+                        <b className="text-pink-500 italic text-">  HTML, CSS e JavaScript </b>, além de 
+                        <b className="text-pink-500 italic text-base"> experiência em React, Vue.js, TypeScript, Nuxt, Storybook, Web Components, design responsivo e web mobile </b>.
+                    </p>
+                    <p> Atualmente, estou expandindo meus conhecimentos em backend, explorando 
+                        <b className="text-pink-500 italic text-base"> Java, Python e PHP </b>, para oferecer soluções ainda mais completas e robustas. 
+                    </p>
+                    <p> Sou entusiasta de tecnologia, sempre em busca de novas tendências que possam agregar valor aos projetos. Fora do código, adoro livros clichês, gatinhos fofos e café ☕🐱📚. </p>
 
                 </div>
             </div>
