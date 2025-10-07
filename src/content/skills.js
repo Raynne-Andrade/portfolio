@@ -30,13 +30,13 @@ const skills = [
    {
     id: "nuxt",
     label: "NuxtJs",
-    icon: <img src={nuxt} width={50} />,
+    icon: <img src={nuxt} width={50} alt='NuxtJs' />,
     description: "O Nuxt.js é um framework baseado em Vue.js que facilita a criação de aplicações web modernas, rápidas e escaláveis. Ele oferece recursos como renderização no lado do servidor (SSR), Static Site Generation (SSG) e organização estruturada do projeto, tornando o desenvolvimento mais ágil e com melhor performance. Ideal para criar sites otimizados para SEO e com ótima experiência do usuário."
   },
   {
     id: "storybook",
     label: "StoryBook",
-    icon: <img src={storybook} width={50} />,
+    icon: <img src={storybook} width={50} alt='storybook' />,
     description: "O Storybook é uma ferramenta para desenvolver e documentar componentes de interface de forma isolada. Ele permite criar, testar e visualizar componentes sem depender da aplicação inteira, acelerando o desenvolvimento e garantindo maior consistência no design. Também funciona como uma biblioteca de componentes interativa, perfeita para equipes que prezam por padronização e escalabilidade no frontend."
   },
   {
@@ -72,7 +72,7 @@ const skills = [
   {
     id: "tailwind",
     label: "Tailwind",
-    icon: <img src={tailwind} width={50} />,
+    icon: <img src={tailwind} width={50} alt='tailwind'/>,
     description: "Tailwind é um framework CSS utility-first que fornece classes utilitárias para agilizar a estilização."
   },
   {
