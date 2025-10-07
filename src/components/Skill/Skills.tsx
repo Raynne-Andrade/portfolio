@@ -5,6 +5,7 @@ const Skill = () => {
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
   const activeSkill = skills.find((skill) => skill.id === selectedSkill);
 
+  
   return (
     <section
       className="my-10 sm:flex min-h-[200px] justify-center p-5 items-center flex-wrap"
