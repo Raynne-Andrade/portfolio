@@ -6,7 +6,7 @@ const Introduction = () => {
         <section>
             <div className='flex items-center mt-10 justify-center font-sans flex-col-reverse sm:flex-row'>
                 <div className="my-12">
-                    <img src={avatar} width='250px' />
+                    <img src={avatar} width='250px' alt='Raynne Avatar' />
                 </div>
                 <div className="m-6">
                     <p className='text-xl text-neutral-800 dark:text-white'> Olá, sou a </p>
