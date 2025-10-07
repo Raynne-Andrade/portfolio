@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Sempre que houver push na main
+      - main  # Executa sempre que houver push na main
 
 jobs:
   build-and-deploy:
@@ -25,8 +25,8 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v6
+        uses: JamesIves/github-pages-deploy-action@v4  # versão corrigida
         with:
-          branch: gh-pages        # branch que será criada ou atualizada
+          branch: gh-pages        # branch que será criada/atualizada
           folder: build           # pasta de build do React
           token: ${{ secrets.GITHUB_TOKEN }}
